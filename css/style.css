@@ -159,6 +159,7 @@ img{
 @media screen and (min-width: 700px){
   nav{
     padding-top: 35px;
+    text-align: right;
     /*Requirement 11*/
 
   }
@@ -171,6 +172,21 @@ img{
   
   /* Requirements 12-15 here: */
 
+  .container{
+    display: grid;
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-row: 300px 300px 300px 300px;
+  }
+
+  .about, .method, .clients-image, .contact-image{
+    grid-column-start: 3;
+    grid-column-end: span 2;
+  }
+
+  .clients, .contact, .about-image, .method-image{
+    grid-column-start: 2;
+    grid-column-end: span 2;
+  }
 }
 
 
