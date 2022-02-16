@@ -110,7 +110,7 @@ row-gap: 30px;
 /* Requirements 6-10 here: */
 .intro{
   background-image: url(../images/header.jpg);
-  background-color: #858585;
+  background-color: #DDDDDD;
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -175,7 +175,7 @@ img{
   .container{
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
-    grid-row: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px;
   }
 
   .about, .method, .clients-image, .contact-image{
